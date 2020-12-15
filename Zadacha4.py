@@ -1,8 +1,8 @@
 num = int(input("введите целое положительное число "))
-ost = num % 10
-num = num // 10
+min = -1
 while num > 0:
-    if num % 10 > ost:
-        ost = num % 10
-        num = num // 10
+    ost = num % 10
+    num = num // 10
+    if ost > min:
+        min = ost
         print("Максимальное число ", ost)

@@ -1,6 +1,5 @@
-n = int(input("Введите n "))
-a = str(n)
+n = input("Введите n ")
 c = n + n
 b = n + n + n
-result = n + int(a) + int(b)
+result = int(n) + int(c) + int(b)
 print(result)
