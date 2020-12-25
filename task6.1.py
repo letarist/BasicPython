@@ -9,4 +9,7 @@ def chisla():
 
 
 for i in chisla():
-    print(i)
+    if i>20:
+        break
+    else:
+        print(i)
